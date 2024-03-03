@@ -1,5 +1,49 @@
+@import '../../styles/variables';
+
 .masthead {
-    &__container {
-        
-    }
+	&__container {
+		min-width: 100vw;
+		height: 100vh;
+
+		display: flex;
+		justify-content: center;
+		align-items: start;
+		// padding: 0 117px;
+
+        // background: $gradient-orange-red-purple;
+
+		// .left {
+		// 	h1 {
+		// 	}
+		// 	div:nth-child(2) {
+		// 		display: flex;
+		// 		flex-direction: row;
+		// 		align-items: center;
+		// 		gap: 20px;
+		// 		// padding-bottom: 8px;
+
+		// 		h1 {
+		// 		}
+
+		// 		h3 {
+		// 			width: 682px;
+		// 			padding: 0;
+		// 			color: $color-black2;
+		// 		}
+		// 	}
+
+		// 	h3 {
+		// 		padding-bottom: 33px;
+		// 	}
+
+		// 	.buttonBorder {
+		// 	}
+		// }
+
+		// .right {
+		// 	position: absolute;
+		// 	top: 300px;
+		// 	right: 420px;
+		// }
+	}
 }

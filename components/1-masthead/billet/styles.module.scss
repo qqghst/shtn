@@ -1,0 +1,54 @@
+@import '../../../styles/variables';
+
+.billet {
+	width: 1457px;
+	height: 871px;
+
+	background: $gradient-orange-red-purple;
+	border: 8px solid $color-white;
+	border-radius: 55px;
+
+	.content {
+		height: 100%;
+
+		display: flex;
+		justify-content: space-between;
+		// align-items: center;
+		// padding: 0 123px;
+		padding: 226px 0 284px 123px;
+
+		.left {
+			h1 {
+			}
+			div:nth-child(2) {
+				display: flex;
+				flex-direction: row;
+				align-items: center;
+				gap: 20px;
+				// padding-bottom: 8px;
+
+				h1 {
+				}
+
+				h3 {
+					width: 682px;
+					padding: 0;
+					color: $color-black2;
+				}
+			}
+
+			h3 {
+				padding-bottom: 33px;
+			}
+
+			.buttonBorder {
+			}
+		}
+
+		.right {
+			position: absolute;
+			top: 288px;
+			right: 176px;
+		}
+	}
+}

@@ -4,11 +4,9 @@ import IBigButtonProps from './interface';
 
 const BigButton: React.FC<IBigButtonProps> = ({ children }) => {
 	return (
-		<>
-			<button className={styles.bigButton}>
-				<span>{children}</span>
-			</button>
-		</>
+		<button className={styles.bigButton}>
+			<span>{children}</span>
+		</button>
 	);
 };
 

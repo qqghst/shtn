@@ -1,0 +1,21 @@
+@import '/styles/variables';
+
+.iconContainer {
+	position: relative;
+	width: 25px;
+	height: 25px;
+
+	display: inline-block;
+	text-align: center;
+	background-color: $color-white;
+	border-radius: 50%;
+	line-height: 25px;
+
+	img {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		text-align: center;
+	}
+}

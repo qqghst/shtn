@@ -1,7 +1,24 @@
 $color-white: #ffffff;
 $color-black: #000000;
+$color-black2: #3a3a3a;
+$color-brown: #292929;
+$color-orange: #F55C1A;
 
-$gradient-first: #672be5;
+$gradient-orange-red-purple: linear-gradient(
+	to left,
+	#ffb147,
+	#ffa449,
+	#ff974e,
+	#ff8a53,
+	#ff7d59,
+	#ff7165,
+	#ff6672,
+	#ff5d81,
+	#f95899,
+	#ec59b2,
+	#d660ca,
+	#b86adf
+);
 
 $padding-desktop: 12.083vw; //232px, 1920
 $padding-mobile: 100px;
